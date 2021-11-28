@@ -1,18 +1,4 @@
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: $main-background-color;
-}
-
-h1 {
-  color: white;
-  background-color: $logo-background-color;
-  padding: 0.2em;
-  display: inline-block;
-  border-radius: 7px;
-  font-size: 2em;
-  font-family: 'Oleo Script', cursive;
-  letter-spacing: 0.06em;
-  font-weight: 300;
-
-}
+@import "base";
+@import "components/header";
+@import "components/welcome";
+@import "components/portfolio";

@@ -1,11 +1,14 @@
 @import "variables";
 @import "mixins";
 
-
+//  adding reset
 @import "reset";
+
+// configuring layout
 @import "grid";
-//import fonts <<Font Open Sans
+
+// installing fonts
 @import "fonts";
+
+// custom styles
 @import "custom";
-
-
